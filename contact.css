@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7e979a;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container.dark-mode{
+    background-color: black;
+    color: white;
+}
+.logo >a{
+    font-size: 1.3rem;
+    color: blue;
+    }
+.container {
+    max-width: 500px;
+    background: #ffffff;
+    padding: 70px;
+    padding-left: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #00796b;
+    margin-bottom: 20px;
+    font-family: 'Arial Black', sans-serif;
+}
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #00796b;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #00796b;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+input:focus, textarea:focus {
+    border-color: #004d40;
+    outline: none;
+}
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #004d40;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #e4eeef;
+}
+textarea{
+    resize: none;
+}
+.logo >a{
+font-size: 1.3rem;
+}
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+#modeToggle{
+font-size: 1.5rem;
+background-color: lightcyan;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -7px;
+}
+#modeToggle:hover{
+
+    background-color: rgb(173, 205, 205);
+}
+nav ul {
+    display: flex; 
+    gap: 20px; 
+}
+
+nav ul li {
+    list-style: none; 
+}
+nav ul li >a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: purple;
+}
+nav ul li >a:hover{
+    color: rgb(141, 28, 141);
+    
+}
