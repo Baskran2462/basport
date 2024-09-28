@@ -95,20 +95,24 @@ nav ul li >a:hover{
     justify-content: center;
     gap: 15px;
     font-size: x-large;
-
+    color: #000000;
 }
 
-.social-icons li {
-    display: inline;
+.social-icons li  {
+    display: inline-block;
+    inline-size: none;
 }
 
-.social-icons a :hover {
+.social-icons a {
     text-decoration: none;
     color: #000000;
-    font-size: 24px;
+    font-size: 30px;
     padding: 5px 10px;
-    
-    
+    display: inline-block;
+}
+.social-icons :hover{
+    display: inline;
+    color: rgb(149, 0, 255);
 }
 
 
