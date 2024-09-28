@@ -29,21 +29,15 @@ header nav ul li {
     display: inline;
     margin: 0 15px;
 }
-
-
 main {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 2px;
    
     
 }
-.img.dark-mode {
-    background-color: #b3a7a7;
-    color: #fafafa;
-}
+
 
 img{
     border-radius: 8px;
@@ -51,11 +45,11 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
-
+.img.dark-mode{
+    background-color: rgb(133, 121, 121);
+    color: white;
+    
+}
 </style>
 </head>
 <body>
@@ -73,27 +67,27 @@ img{
                 <button class="toggle-button" id="modeToggle">🌙</button>
             </div>
         </nav>
-        
+
     <main>
-      
-            <h2>Hello! I’m BASKARAN</h2>
-            <div class="img">
-                <img src="about me.jpg" width="200" height="300">
-            
-            <h3><p>I’m a passionate web developer based in  San Francisco, specializing in front-end development. With a background in computer science, I thrive on transforming ideas into impactful solutions.</p>
-            <p>I believe in the power of collaboration and user-centric design and strive to bring this into every project I undertake. My skill set includes HTML, CSS, JavaScript, and React, which I use to create seamless and engaging user experiences.</p>
-            <p>When I'm not coding, you can find me hiking in the Bay Area or experimenting with new recipes in the kitchen. I’m always eager to learn and grow, so feel free to reach out to connect or collaborate!</p>
-            </h3>
-        </div>     
-     
-     </main>
+        <div class="img">
+              <h2>Website For Product Visualisation</h2>
+              <img src="screenshot .jpg" width="200" height="300">
+            <h3><p> A website is developed which maintains the stock of  machineries owned by  S.J.S INDUSTRIES. In this website customer can easily identify the products what  actually is needed  it is very useful for them to know the product , details and also visualize the requried for product </p>
+            <p>The website helps  the customers  to customize their products like  size, color , model type .The admin maintains the stocks records .also update about customer detalis,
+            </p>
+            <p>view the  customer details,(view and update ) the stock details In the user side the user can                   login to their existing account or create a new account if they are the new user.  The customer can view their purchase details, view the list of variety of products , order the product</p>
+             </h3>
    
+     </main>
+    </div>
      <script>
         const container=document.querySelector('.img');
         document.getElementById('modeToggle').addEventListener('click', ()=> {
             console.log("Clicked");
             
     container.classList.toggle('dark-mode');});
+
+        
      </script>
 </body>
 </html>
