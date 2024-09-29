@@ -59,17 +59,13 @@ font-size: 1.3rem;
 }
 #modeToggle{
 font-size: 1.5rem;
-background-color: lightcyan;
 border-radius: 50%;
-height: 40px;
-width: 40px;
 display: flex;
 align-items: center;
-justify-content: center;
 }
 #modeToggle:hover{
 
-    background-color: rgb(187, 209, 209);
+    background-color: rgb(208, 236, 240);
 }
 nav ul {
     display: flex; 
@@ -124,7 +120,7 @@ nav ul li >a:hover{
 
 
 body.dark-mode {
-    background-color: #3d3c3c;
+    background-color: #494747;
     color: #fafafa;
 }
 
@@ -144,7 +140,8 @@ h1.dark-mode {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+   
+
 }
 
 .toggle-button.dark-mode {

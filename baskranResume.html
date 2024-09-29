@@ -9,12 +9,12 @@
     <style>
        
         body {
-            background-color: white;
+           
             color: black;
             }
         
         .dark-mode {
-            background-color: rgb(48, 48, 48);
+            background-color: rgb(131, 129, 129);
         
             margin-left: auto;
         }
@@ -24,27 +24,37 @@
           
             transition: background-color 0.3s;
         }
-
-        nav.dark-mode {
-            background-color: #333;
+        
+     #modeToggle {
+    font-size: 1.5rem;
+    background-color: rgb(217, 235, 235);
+    border: none;
+    border-radius: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+nav.dark-mode {
+    background-color: rgb(217, 235, 235);
         }
 
         .toggle-button{
             padding-right: 100px;
-           
-
+            position: relative;
+            right: px;
+        
         }
-             
-
         .bx.bxs-like {
             margin-left: auto;
             font-size: 2rem;
-            color: #171717;
+            
             transition: color 0.3s;
         }
 
         .dark-mode .bx.bxs-like {
-            color: white;
+            color: rgb(231, 19, 19);
         }
 
         .left-section, .right-section {
@@ -52,12 +62,12 @@
         }
 
         .dark-mode .left-section, .dark-mode .right-section {
-            background-color: #786f6f;
+            background-color: #b8a5a5;
         }
 
         a {
             
-            color: #007BFF;
+            color: #000000;
         }
 
         .dark-mode a {
